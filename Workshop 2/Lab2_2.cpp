@@ -91,7 +91,7 @@ int main()
 		
 		std::cout << "Press the return key exit or any other key to try again: ";
 		std::cin >> exit;
-		if (exit == '\n') {
+		if (exit == 'q') {
 			cv::destroyWindow("Lab 2-2");
 			break;
 		}		
