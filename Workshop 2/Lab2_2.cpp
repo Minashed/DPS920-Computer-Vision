@@ -6,6 +6,7 @@ We have not distributed our work to other students.
 */
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include <time.h>
 
 #pragma comment(lib, "vfw32.lib")
 #pragma comment(lib, "comctl32.lib")
