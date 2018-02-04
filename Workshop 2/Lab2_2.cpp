@@ -74,7 +74,7 @@ int main()
 			colourVec = cv::Vec3b(255, 0, 255);
 		}
 		else if (colour == 'x') {//random
-			cv::RNG rng = cv::theRNG();
+			cv::RNG rng = cv::RNG(static_cast<long int>(time(NULL)));
 			colourVec = cv::Vec3b(rng(256), rng(256), rng(256));
 		}
 
